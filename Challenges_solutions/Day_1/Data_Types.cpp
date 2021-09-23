@@ -1,20 +1,25 @@
 #include <iostream>
+#include <iomanip>
+#include <limits>
+
 using namespace std;
 
-int main()
-{
+int main() {
+    int i = 4;
+    double d = 4.0;
+    string s = "HackerRank ";
+    int a;
+    double b;
+    string c;
 
-    int i = 4, a;
-    double d = 4.0, b;
-    string s = "HackerRank ", c;
     cin >> a;
     cin >> b;
-    fflush(stdin);
-    getline(cin, c);
+    getline(cin >> ws, c);
 
-    cout<<i+a<<endl;
-    printf("%.1f\n",b+d);
-    cout<<s+c<<endl;
+    cout << i + a << endl;
+    cout << fixed << setprecision(1) << b + d << endl;
+    cout << s + c << endl;
+    
 
     return 0;
 }
