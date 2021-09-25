@@ -1,10 +1,12 @@
 {
     "files.associations": {
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "iostream": "cpp"
     },
     "java.project.sourcePaths": [
+        "Challenges_solutions/Day_2",
         "Challenges_solutions/Day_1",
         "Challenges_solutions/Day_0",
-        "Challenges_solutions/Day_2"
+        "Challenges_solutions/Day_03"
     ]
 }
